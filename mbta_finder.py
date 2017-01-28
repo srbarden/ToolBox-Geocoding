@@ -7,8 +7,7 @@ Full instructions are at:
 https://sites.google.com/site/sd15spring/home/project-toolbox/geocoding-and-web-apis
 """
 
-import urllib   # urlencode function
-import urllib2  # urlopen function (better than urllib version)
+from urllib.request import urlopen
 import json
 
 
@@ -52,8 +51,7 @@ def get_nearest_station(latitude, longitude):
 
 def find_stop_near(place_name):
     """
-    Given a place name or address, print the nearest MBTA stop and the 
+    Given a place name or address, print the nearest MBTA stop and the
     distance from the given place to that stop.
     """
     pass
-

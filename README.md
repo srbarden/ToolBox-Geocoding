@@ -1,4 +1,4 @@
 # ToolBox-Geocoding
 Geocoding and Web APIs Project Toolbox starter code
 
-Full instructions at https://sites.google.com/site/sd16spring/home/project-toolbox/geocoding-and-web-apis
+Full instructions at [the course website](https://sd17spring.github.io/toolboxes/geocoding-and-web-apis/)
